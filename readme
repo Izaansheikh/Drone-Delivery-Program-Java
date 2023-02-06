@@ -1,0 +1,29 @@
+Izaan Zahid Sheikh DSA_2021t1_Assignment Readme
+
+Date created: 03-04-2021
+
+Date last modified: 03-04-2021
+
+Purpose: display information related to store, inventories and order.
+
+Files in project: droneDirect.java, userInterface.java, report.java, DSAGraph.java, DSAHashTable.java, Order.java, fileManager.java
+
+Test Files: UnitTestDSAGraph.java, UnitTestDSAHashTable.java, UnitTestOrder.java, UnitTestfileManager.java
+
+Functionality: Stores order, inventory & stores and then display route taken to deliver the order, inventory according to order, and distances between stores.
+
+TODO: You just need to compile the code and run it.
+
+How to run this code?
+1. Download the code and extract all the file in one folder.
+2. Compile the code using "javac *.java".
+3. Run the code using "java droneDirect -x".
+		       where x is one of
+		       i - Interactive Mode
+		       r - Report Mode
+Note: For report mode, please enter the file names in following order:
+      droneDirect -r <store_file> <inventory_file> <order_file>
+
+How to use this code?
+After running the code, it will show you various options. Select accordingly by entering the corresponding number displayed in the menu for interactive mode.
+For report mode, a .csv file will be created as processed output in the same directory.
